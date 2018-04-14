@@ -16,6 +16,11 @@ body {
 	font-family: 'Righteous', cursive;
 }
 
+li	{
+	font-family: 'Righteous', cursive;
+	font-size: 1.5em;
+}
+
 .title-design{
 	font-size: 70px;
 	color:#b3b3b3;
@@ -23,23 +28,14 @@ body {
 	font-family: 'Righteous', cursive;
 }
 
-/*span{
+span{
 	color: #02458d;
 }
 
-
-.masonry-column {
-  padding: 0 1px;
+#border-blog > .foo{
+	background-color: #e7e7e7;
 }
 
-.masonry-grid > div .thumbnail {
-  margin: 5px 1px;
-}
-*/
-.foo {
-	border: 1px solid red; /*for testing	*/
-	margin-bottom: 5px;
-}
 
 /*Grid CSS*/
 
@@ -49,6 +45,7 @@ body {
    grid-gap: 10px;
    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
    grid-auto-rows: 200px;
+   margin-bottom: 5px;
 }
 
 .photo {
@@ -61,49 +58,37 @@ body {
    grid-row-end: span 2;
 }
 
-/* Non-grid specific CSS */  
-/*body {*/
-  /*margin: 10px;*/
-	/*color: #374046;
-	background-color: #374046;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.15em;*/
-	/*text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;*/
-/*}*/
+
 
 .item {
-  /*background-color: red;*/ 
   overflow: hidden;
 }
 
 .photothumb{
   width: 100%;
- /* height: auto;
-  margin: 0 auto;*/
 }
 
 .title {
   padding: 8px;
  }
 
-.title a{
-  font-size: 1.5em;
-  /*color: green;*/
-  text-transform: uppercase;
+.title > a{
+text-align: left;	
+font-size: 1.5em;
+text-transform: uppercase;
+text-decoration: none;
 }
 
-.project .title{
-  /*background-color: black;*/
+.title > a:hover,
+.title > a:active{
+
+ text-decoration: none;
 }
 
-.blog .title{
-  /*background-color: blue;*/
+#sample-title > p {
+	font-size: 1.5em;
 }
 
-.photo .title{
-  /*background-color: yellow;*/
-}
 
 .desc{
   padding: 10px 10px 5px 10px;
@@ -115,8 +100,12 @@ body {
   float: left;
 }
 
-.desc p{
+.desc > p{
   margin-bottom: 10px;
+}
+
+.desc > blockquote{
+ font-size: 1em;
 }
 
 .btn{

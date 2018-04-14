@@ -12,7 +12,52 @@ body {
 	color:  white; 
 }
 
+.container,
 .container-fluid {
 	font-family: 'Righteous', cursive;
-	/*border: 1px solid green;/*for testing*/
+	
+}
+
+li	{
+	font-family: 'Righteous', cursive;
+	font-size: 1.5em;
+}
+
+#feat-1 > img {
+	height: 50px;
+	width: 50px;
+	display: inline;
+}
+
+#feat-1 > a{
+	text-decoration: none;
+}
+
+#feat-1{
+	padding-bottom: 5px;
+}
+
+#panel-design > .panel-heading{
+	background-color: #02458d;
+	color: #e7e7e7;
+}
+
+#panel-design > .panel-body {
+	background-color: #e7e7e7;
+	color: #02458d;
+}
+
+
+/*carousel*/
+.carousel-inner > .item > img {
+	
+	width: 100%
+}
+
+#summerpic{
+	width: 100%;
+}
+
+#caption-id{
+	padding: 5px;
 }

@@ -12,6 +12,11 @@ body {
 	color:  white; 
 }
 
+li	{
+	font-family: 'Righteous', cursive;
+	font-size: 1.5em;
+}
+
 .container-fluid {
 	font-family: 'Righteous', cursive;
 	/*border: 1px solid green;/*for testing*/
