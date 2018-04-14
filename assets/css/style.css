@@ -1,16 +1,13 @@
 body {
   background: url("img-homepage/back-1.jpg");
-  background-position: center;
+/*  background-position: center;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-    /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
-    padding:30px;
+    padding-top:30px;
 }
 
-.page-header{
+.header{
   background-color: #e7e7e7;
   opacity: 0.5;
 }
@@ -19,7 +16,7 @@ img{
   padding: 10px 0;
 }
 
-.container{
+.container-fluid{
   font-family: 'Righteous', cursive;
 }
 
@@ -82,7 +79,13 @@ animation-delay: 0.9s;
 animation-delay: 1.5s;
 }
 
-*=== FADE IN  ===*/
+.third {
+-webkit-animation-delay: 1.9s;
+-moz-animation-delay: 1.9s;
+animation-delay: 1.9s;
+}
+
+/**=== FADE IN  ===*/
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -183,6 +186,7 @@ animation-delay: 1.5s;
   height: 60px;
   text-align: center;
   left: 0;
+  right: 0;
   color: white;
   font-size: 20px;
 }
